@@ -14,7 +14,6 @@ public class ClienteDAOImpl extends DAOImpl<Cliente> implements ClienteDAO {
 
 	@Override
 	public Cliente getClienteByID(int id) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
@@ -36,19 +35,16 @@ public class ClienteDAOImpl extends DAOImpl<Cliente> implements ClienteDAO {
 
 	@Override
 	public Cliente update(Cliente t) throws Exception {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Cliente remove(Cliente t) throws Exception {
-		// TODO Auto-generated method stub
 		return null;
 	}
 
 	@Override
 	public Cliente parseToDTO(ResultSet resultSet) {
-		// TODO Auto-generated method stub
 		return null;
 	}
 	

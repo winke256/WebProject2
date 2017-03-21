@@ -16,9 +16,9 @@
       <input type="text" id="emailCliente" name="emailCliente"/><br/>
 
       <input type="submit" name="oQueFazer" value="Inserir" />
-      <input type="submit" name="oQueFazer" value="Inserir" />
-      <input type="submit" name="oQueFazer" value="Inserir" />
-      <input type="submit" name="oQueFazer" value="Inserir" />
+      <input type="submit" name="oQueFazer" value="Consultar" />
+      <input type="submit" name="oQueFazer" value="Atualizar" />
+      <input type="submit" name="oQueFazer" value="Deletar" />
 
     </form>
   </body>

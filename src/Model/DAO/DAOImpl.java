@@ -10,9 +10,10 @@ import Enum.DatabaseExtension;
 
 public abstract class DAOImpl<T> implements DAO<T>  {
 	
-	private final String CONECTION_IP 	= "127.0.0.1";
+	private final String CONNECTION_IP 	= "127.0.0.1";
 	private final String USER 			= "root";
 	private final String PASS 			= "123456";
+	private final String PORT 			= "8080";
 	
 	private String database;
 	
@@ -30,7 +31,7 @@ public abstract class DAOImpl<T> implements DAO<T>  {
 	
 	public Connection getConnection() throws Exception{
 		try{
-			return DriverManager.getConnection("jdbc:mysql://");
+			return DriverManager.getConnection("jdbc:mysql://"+CONNECTION_IP+":"+PORT+"/"+this.database, USER, PASS);
 		}catch(SQLException ex){
 			ex.printStackTrace();
 		}
